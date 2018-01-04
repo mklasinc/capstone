@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/psych-experiment.unity
+  isLoaded: 1
+  isActive: 1
