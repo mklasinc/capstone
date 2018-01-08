@@ -20,6 +20,8 @@ namespace Vuforia
 
 		private bool TrackableStatus = false;
 
+		private OSCReceiver1 osc;
+
 		#endregion // PRIVATE_MEMBER_VARIABLES
 
 		public bool is_seen_bool = false;
@@ -33,6 +35,10 @@ namespace Vuforia
 			{
 				mTrackableBehaviour.RegisterTrackableEventHandler(this);
 			}
+
+			osc = GameObject.Find ("osc_script").gameObject.GetComponent<OSCReceiver1> ();
+			Debug.Log ("let's see if the communication is possible");
+			Debug.Log(osc.TestCommunication());
 		}
 
 		#endregion // UNTIY_MONOBEHAVIOUR_METHODS
