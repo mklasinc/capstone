@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity_osc_receiver", "Assembly-CSharp-firstpass.csproj", "{63F741EA-647D-F839-720C-54132DE5D753}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity_osc_receiver", "Assembly-CSharp.csproj", "{E0AF1475-C0A6-CE4A-EA62-4B276854F355}"
 EndProject
 Global
@@ -11,10 +9,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63F741EA-647D-F839-720C-54132DE5D753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63F741EA-647D-F839-720C-54132DE5D753}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63F741EA-647D-F839-720C-54132DE5D753}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63F741EA-647D-F839-720C-54132DE5D753}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E0AF1475-C0A6-CE4A-EA62-4B276854F355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0AF1475-C0A6-CE4A-EA62-4B276854F355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0AF1475-C0A6-CE4A-EA62-4B276854F355}.Release|Any CPU.ActiveCfg = Release|Any CPU
