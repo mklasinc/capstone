@@ -1,0 +1,41 @@
+NOTES
+
+
+////////////////////////   MATLAB CODE   ///////////////////////////////////////////
+1. change the sphere dimensions to actual dimensions (in mm)
+2. to satisfy IRB criteria, the names of subjects should be anonymized
+3. condition: spell it out in the data —> real vs. virtual instead of 0 and 1
+4. information about the previous trials (apparently Ivan did something similar before)
+
+Later in the data analysis
+Add L-R differences between the spheres 
+
+
+
+
+
+////////////////////////   DATA ANALYSIS    ////////////////////////////////////////
+
+1. open MihaData.proj (sets the R directory)
+2. open Cut_data
+
+
+you check the trials one by one
+
+FIRST CHECK
+see visually if the trajectories are correct
+notrials() - put in the trial number you want to delete
+
+SECOND CHECK
+check visually if the trials are cut correctly
+
+THIRD CHECK
+plot everything in R
+
+Cut_data
+FindEndMovement - this finds the end movement 
+
+
+Analysis.R
+
+
